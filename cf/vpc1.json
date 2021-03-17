@@ -1,0 +1,10 @@
+{
+  "Type" : "AWS::EC2::VPC",
+  "Properties" : {
+      "CidrBlock" : "10.1.0.0/16",
+      "EnableDnsHostnames" : "true",
+      "EnableDnsSupport" : "true",
+      "InstanceTenancy" : "default",
+      "Tags" : [ {"Key" : "Name", "Value" : "vpc1"}, {"Key" : "Source", "Value" : "CloudFormationTemplate1"}, {"Key" : "Purpose" : "Value" : "Testing"}, {"Key" : "Department", "Value": "production"} ]
+    }
+}
